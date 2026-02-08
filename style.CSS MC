@@ -1,6 +1,10 @@
 <link href='https://lubala.github.io/lubalaisawesome2/Minecraft.html' rel='stylesheet'/>.
+<head>
 <style>
     html {
       background-image: url('téléchargement.jpg');
     }
 </style>
+</head>
+<body>
+<body/>
