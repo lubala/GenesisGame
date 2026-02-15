@@ -1,5 +1,5 @@
-<link href='Minecraft.html' rel='stylesheet'/>.
-    html {
-      background-image: url('téléchargement.jpg');
-    }
-
+#musique{
+   display: flex;
+  align-items: flex-start; 
+  gap: 40 px;;
+}
