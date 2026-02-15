@@ -11,3 +11,8 @@
 #left{
   width:"60";
 }
+
+div.container {
+          display:inline-block;
+        }
+  
