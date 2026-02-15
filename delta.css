@@ -1,11 +1,13 @@
 #gameplay{
-  text-align: right;
+  width:"40";
 }
 
-#story{
-  text-align: left;
+#main-container {
+  display: flex;
+  align-items: flex-start; 
+  gap: 40 px; 
 }
 
-#music{
-  text-align: left;
+#left{
+  width:"60";
 }
