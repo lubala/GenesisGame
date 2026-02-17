@@ -16,9 +16,11 @@ div.container {
           display:inline-block;
         }
 #home{
-  float="left"
+  float="left";
 }
   
 div.overhead{
           display:inline-block;
+  float="center";
+
         }
