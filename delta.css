@@ -13,10 +13,9 @@
 }
 
 div.container {
-          display:inline-block;
-        }
+  float="left"
+}
 
-  
 div.overhead{
           display:inline-block;
         }
