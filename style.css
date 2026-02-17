@@ -1,1 +1,13 @@
+#main-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40 px;
+}
 
+#left {
+  width: 60 %;
+}
+
+#gameplay {
+  width: 40 %;
+}
