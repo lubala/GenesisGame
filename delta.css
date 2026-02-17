@@ -5,11 +5,11 @@
 }
 
 #left {
-  width: "60";
+  width: 60 %;
 }
 
 #gameplay {
-  width: "40";
+  width: 40 %;
 }
 
 div.container {
