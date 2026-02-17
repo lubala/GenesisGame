@@ -1,5 +1,5 @@
 #musique{
    display: flex;
   align-items: flex-start; 
-  gap: 40 px;;
+  gap: 40 px;
 }
