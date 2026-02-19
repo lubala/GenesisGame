@@ -17,16 +17,13 @@ div.container {
 }
 
 div.overhead{
-          display:inline-block;
+         display: flex;
+  align-items: center;      
+  justify-content: space-between; 
+  padding: 10px 20px;
         }
-#home{
-  float="left"
-}
-#logo{
-  float="center"
-}
-#mc{
-  float="right"
+div.overhead img {
+  display: block;
 }
 #gametxt{
 font-size: 1.2 rem;}
