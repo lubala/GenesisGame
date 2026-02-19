@@ -19,3 +19,15 @@ div.container {
 div.overhead{
           display:inline-block;
         }
+#gametxt{
+  font-size: medium;
+}
+#artxt{
+  font-size: medium;
+}
+#musictxt{
+  font-size: medium;
+}
+#storytxt{
+  font-size: medium;
+}
