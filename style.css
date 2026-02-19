@@ -12,5 +12,5 @@
   width: 40 %;
 }
 div.list_liens{
-  text-align: left;
+  float: right;
 }
