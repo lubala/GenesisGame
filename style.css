@@ -7,3 +7,6 @@ div.listandmain {
   gap: 20;
   padding: 20;
 }
+#next{
+  display:inline-block;
+}
