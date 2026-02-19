@@ -17,3 +17,6 @@ div.list_liens{
 div.listandmain{
   display:inline-block;
 }
+div.images{
+  float:left;
+}
