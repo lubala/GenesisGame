@@ -27,3 +27,7 @@ font-size: 1.2 rem;}
 font-size: 1.2 rem;}
 #storytxt{
 font-size: 1.2 rem;}
+p{
+    background-image: url('bright-blue-color-solid-background-1920x1080.avif');
+  outline: solid;
+}
