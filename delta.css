@@ -30,4 +30,5 @@ font-size: 1.2 rem;}
 p{
     background-image: url('bright-blue-color-solid-background-1920x1080.avif');
   outline: solid;
+  background-size: "30%";
 }
