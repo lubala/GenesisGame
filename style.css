@@ -17,3 +17,11 @@ div.list_liens{
 div.listandmain{
   display:inline-block;
 }
+
+div.IMAGES{
+  float: left;
+  display: flex;                   
+  justify-content: center;         
+  width: "50%";
+  padding: "5px";
+}
