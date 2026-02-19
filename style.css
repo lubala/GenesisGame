@@ -11,6 +11,6 @@
 #gameplay {
   width: 40 %;
 }
-#list_liens{
+div.list_liens{
   text-align: left;
 }
