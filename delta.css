@@ -17,13 +17,18 @@ div.container {
 }
 
 div.overhead{
-         display: flex;
-  align-items: center;      
-  justify-content: space-between; 
-  padding: 10px 20px;
+        position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
         }
 div.overhead img {
   display: block;
+}
+#logo {
+  position: absolute;
+  left: "50%";
+  transform: "translateX(-50%)";
 }
 #gametxt{
 font-size: 1.2 rem;}
