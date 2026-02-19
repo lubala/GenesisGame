@@ -19,6 +19,15 @@ div.container {
 div.overhead{
           display:inline-block;
         }
+#home{
+  float="left"
+}
+#logo{
+  float="center"
+}
+#mc{
+  float="right"
+}
 #gametxt{
 font-size: 1.2 rem;}
 #artxt{
