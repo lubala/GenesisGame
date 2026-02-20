@@ -10,3 +10,6 @@ div.listandmain {
 #next{
   display:inline-block;
 }
+body{
+  background-image: url("image.webp");
+}
