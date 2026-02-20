@@ -20,3 +20,12 @@ body{
   background-position: center;   
   outline: thick double;
 }
+div.list_liens{
+  flex: 1;   
+}
+div.IMAGES{
+  flex: 1;
+}
+div.TABLE{
+  flex:1;
+}
