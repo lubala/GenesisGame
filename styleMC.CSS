@@ -1,1 +1,12 @@
+.grand {
+  display: flex;
+  justify-content: space-between; /* gauche / droite */
+}
 
+.bloc {
+  text-align: center; /* centre le texte au-dessus de l'image */
+}
+
+.bloc img {
+  width: 150px;
+}
