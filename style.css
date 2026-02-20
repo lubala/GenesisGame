@@ -14,12 +14,22 @@ body{
   background-image: url("sr26302fac93eaws3.png");
 }
 .textbox {
-  display: inline; 
+  display: inline-block; 
   background-image: url("FAB6C5_1200x.png");
   background-size: cover;       
   background-position: center;   
-  outline: thick double ;
-  outline-color: #FF69B4;
+  outline: thick double #FF69B4;
+  padding: "10px";
+  box-sizing: border-box;
+}
+.table-textbox {
+  display: block;      /* full-width block container */
+  width: "100%";         /* fill parent container */
+}
+
+.table-textbox table {
+  width: "100%";         /* table fills textbox */
+  margin: 0;           /* remove extra centering */
 }
 div.list_liens{
   flex: 1;   
