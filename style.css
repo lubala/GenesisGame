@@ -20,6 +20,7 @@ body{
   background-position: center;   
   outline: thick double ;
   outline-color: "#FF69B4";
+  display: block;
 }
 div.list_liens{
   flex: 1;   
