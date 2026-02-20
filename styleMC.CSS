@@ -1,13 +1,1 @@
-#principale{
-   display: flex;
-  align-items: flex-start; 
-  gap: 40 px;
-}
 
-#musique {
-  width: 60%;
-}
-
-#gauche {
-  width: 40%;
-}
