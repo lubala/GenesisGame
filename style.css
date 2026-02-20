@@ -15,7 +15,7 @@ body{
 }
 .textbox {
   display: inline-block; 
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("FAB6C5_1200x.png");
+  background-image: url("FAB6C5_1200x.png");
   background-size: cover;       
   background-position: center;   
   outline: thick double;
