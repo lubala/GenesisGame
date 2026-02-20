@@ -2,8 +2,9 @@
 div.listandmain {
   display: flex;
   flex-direction: row;        
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;   
+  gap: 60px;
   margin: 60px;
   padding: 20px;
 }
