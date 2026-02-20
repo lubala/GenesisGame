@@ -30,5 +30,9 @@ div.IMAGES{
 div.TABLE{
   flex:1;
 }
-
-
+.musicwelcome {
+  display: flex;            
+  align-items: center;    
+  justify-content: center;  
+  gap: "20px";      
+}
