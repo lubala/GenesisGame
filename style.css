@@ -23,13 +23,13 @@ body{
   box-sizing: border-box;
 }
 .table-textbox {
-  display: block;      /* full-width block container */
-  width: "100%";         /* fill parent container */
+  display: block;      
+  width: "100%";         
 }
 
 .table-textbox table {
-  width: "100%";         /* table fills textbox */
-  margin: 0;           /* remove extra centering */
+  width: "100%";         
+  margin: 0;          
 }
 div.list_liens{
   flex: 1;   
