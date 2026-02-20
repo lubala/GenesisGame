@@ -18,7 +18,7 @@ body{
   background-image: url("FAB6C5_1200x.png");
   background-size: cover;       
   background-position: center;   
-  outline: thick double;
+  outline: thick double #FF69B4;
 }
 div.list_liens{
   flex: 1;   
@@ -28,4 +28,8 @@ div.IMAGES{
 }
 div.TABLE{
   flex:1;
+}
+
+div.musicwelcome{
+    display: inline-block; 
 }
