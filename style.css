@@ -19,7 +19,7 @@ body{
   background-size: cover;       
   background-position: center;   
   outline: thick double ;
-  outline-color: "#FF69B4";
+  outline-color: #FF69B4;
   display: block;
   width: "100%";    
   box-sizing: border-box; 
