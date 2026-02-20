@@ -18,7 +18,8 @@ body{
   background-image: url("FAB6C5_1200x.png");
   background-size: cover;       
   background-position: center;   
-  outline: thick double #FF69B4;
+  outline: thick double ;
+  outline-color: "#FF69B4";
 }
 div.list_liens{
   flex: 1;   
