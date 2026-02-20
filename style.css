@@ -20,9 +20,6 @@ body{
   background-position: center;   
   outline: thick double ;
   outline-color: #FF69B4;
-  display: block;
-  width: "100%";    
-  box-sizing: border-box; 
 }
 div.list_liens{
   flex: 1;   
