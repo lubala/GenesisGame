@@ -14,7 +14,7 @@ body{
   background-image: url("sr26302fac93eaws3.png");
 }
 .textbox {
-  display: inline-block; 
+  display: inline; 
   background-image: url("FAB6C5_1200x.png");
   background-size: cover;       
   background-position: center;   
