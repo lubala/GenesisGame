@@ -1,13 +1,3 @@
-div.titleandlist{
-  display: flex;
-  flex-direction: column;  
-  align-items: flex-start; 
-  gap: 20px;              
-}
-
-.titleandlist h1 {
-  margin: 0;
-}
 
 div.listandmain {
   display: flex;
