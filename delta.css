@@ -1,7 +1,7 @@
 #main-container {
   display: flex;
   align-items: flex-start;
-  gap: "60px";
+  margin: 60px;
 }
 
 #left {
@@ -39,7 +39,9 @@ font-size: 1.2 rem;}
 #storytxt{
 font-size: 1.2 rem;}
 
-div.instruct{
-    display:inline-block;
-
+.instruct {
+  display: flex;                
+  justify-content: space-between; 
+  width: 100%;                   
+  box-sizing: border-box;        
 }
