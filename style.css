@@ -4,8 +4,8 @@ div.listandmain {
   flex-direction: row;        
   justify-content: space-around;
   align-items: flex-start;   
-  gap: "60px";
-  padding: "20px";
+  gap: 60px;
+  padding: 20px;
 }
 #next{
   display:inline-block;
@@ -19,12 +19,12 @@ body{
   background-size: cover;       
   background-position: center;   
   outline: thick double #FF69B4;
-  padding: "10px";
+  padding: 10px;
   box-sizing: border-box;
 }
 .table-textbox {
   display: block;      
-  width: "100%";         
+  width: 100%;         
 }
 
 .table-textbox table {
