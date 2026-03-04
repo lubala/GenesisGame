@@ -15,39 +15,41 @@
   <center>
 En quelle année est sortie Minecraft ?
 
- <input type="radio" name="drone"  value="2007"   checked />
+ <input type="radio" name="annee"  value="2007"   checked />
  <label  >toto  </label>
 
- <input type="radio" name="drone"  value="2008" />
+ <input type="radio" name="annee"  value="2008" />
  <label  >tata  </label>
 
- <input type="radio" name="drone"  value="2009" />
+ <input type="radio" name="annee"  value="2009" />
  <label  >titi  </label>
 
-    <input type="radio" name="drone"  value="2010" />
+    <input type="radio" name="annee"  value="2010" />
  <label  >titi  </label>
 
-    <input type="radio" name="drone"  value="2004" />
+    <input type="radio" name="annee"  value="2004" />
  <label  >titi  </label>
   
 
 <input type="button" value="Valider" onclick="MaFonction()" />
 
-<p id='resultat'>Vous avez choisi</p>
+<p id='resultat'></p>
 
 </center>
 
   <script>
     function MaFonctionx()
       {
-    var fond =  document.getElementsByName("drone") ;
+    var fond =  document.getElementsByName("annee") ;
    var valeurs;
-  for(var i = 0; i < fond.length; i++){
-     if(fond[i].checked == true){
-        valeurs = fond[i].value;
+     if(fond[3].checked == true){
+        valeurs = "green";
+	 }
+	else{
+		  valeurs = "red";
+	    }  
 	    document.body.style.backgroundColor =valeurs;
-      }
-  }
+      
       }
   </script>
   
