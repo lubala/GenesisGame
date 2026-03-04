@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Titre de la page</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+
+  <center>
+En quelle année est sortie Minecraft ?
+
+ <input type="radio" name="drone"  value="2007"   checked />
+ <label  >toto  </label>
+
+ <input type="radio" name="drone"  value="2008" />
+ <label  >tata  </label>
+
+ <input type="radio" name="drone"  value="2009" />
+ <label  >titi  </label>
+
+    <input type="radio" name="drone"  value="2010" />
+ <label  >titi  </label>
+
+    <input type="radio" name="drone"  value="2004" />
+ <label  >titi  </label>
+  
+
+<input type="button" value="Valider" onclick="MaFonction()" />
+
+<p id='resultat'>Vous avez choisi</p>
+
+</center>
+
+  <script>
+    function MaFonctionx()
+      {
+    var fond =  document.getElementsByName("drone") ;
+   var valeurs;
+  for(var i = 0; i < fond.length; i++){
+     if(fond[i].checked == true){
+        valeurs = fond[i].value;
+	    document.body.style.backgroundColor =valeurs;
+      }
+  }
+      }
+  </script>
+  
+  
+</body>
+</html>
