@@ -2,71 +2,87 @@ function MaFonction() {
 
   let score = 0;
 
-  // Question année
+  // QUESTION 1
   let annee = document.getElementsByName("annee");
-  for (let i = 0; i < annee.length; i++) {
-    if (annee[i].checked) {
-      score += parseInt(annee[i].value);
 
-      if (annee[i].value == "1") { // valeur de la bonne réponse
-        annee[i].parentElement.style.color = "green";
+  for (let i = 0; i < annee.length; i++) {
+
+    if (annee[i].checked) {
+
+      if (annee[i].value == "1") {
+        score++;
+        annee[i].parentElement.style.color = "lime";
       } else {
         annee[i].parentElement.style.color = "red";
       }
+
     }
   }
 
-  // Question ventes
+
+  // QUESTION 2
   let ventes = document.getElementById("choix");
 
-  if (ventes.value == "bonneValeur") {
-    score += parseInt(ventes.value);
-    ventes.style.backgroundColor = "lightgreen";
+  if (ventes.value == "1") {
+    score++;
+    ventes.style.backgroundColor = "lime";
   } else {
-    ventes.style.backgroundColor = "salmon";
+    ventes.style.backgroundColor = "red";
   }
 
-  // Question yeux
+
+  // QUESTION 3
   let yeux = document.getElementById("Id_Reponse");
 
   if (yeux.value.toLowerCase() == "blanc" || yeux.value.toLowerCase() == "blancs") {
-    score += 1;
-    yeux.style.backgroundColor = "lightgreen";
+    score++;
+    yeux.style.backgroundColor = "lime";
   } else {
-    yeux.style.backgroundColor = "salmon";
+    yeux.style.backgroundColor = "red";
   }
 
-  // Question créateur
+
+  // QUESTION 4
   let createur = document.getElementsByName("Ian");
+
   for (let i = 0; i < createur.length; i++) {
+
     if (createur[i].checked) {
+
       if (createur[i].value == "Toby Fox") {
-        score += 1;
-        createur[i].parentElement.style.color = "green";
+        score++;
+        createur[i].parentElement.style.color = "lime";
       } else {
         createur[i].parentElement.style.color = "red";
       }
+
     }
+
   }
 
-  // Question date
-  let date = document.getElementsByName("lang")[1];
+
+  // QUESTION 5
+  let date = document.getElementById("choix2");
+
   if (date.value == "I2") {
-    score += 1;
-    date.style.backgroundColor = "lightgreen";
+    score++;
+    date.style.backgroundColor = "lime";
   } else {
-    date.style.backgroundColor = "salmon";
+    date.style.backgroundColor = "red";
   }
 
-  // Question personnage
+
+  // QUESTION 6
   let perso = document.getElementById("Id_Reponse2");
 
   if (perso.value.toLowerCase() == "kris") {
-    score += 1;
-    perso.style.backgroundColor = "lightgreen";
+    score++;
+    perso.style.backgroundColor = "lime";
   } else {
-    perso.style.backgroundColor = "salmon";
+    perso.style.backgroundColor = "red";
   }
 
+
   alert("Votre score est : " + score + " / 6");
+
 }
