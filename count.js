@@ -86,9 +86,9 @@ let img = document.createElement("img");
 if(score >= 5){
   img.src = "tenna-deltarune.gif";
 }else if(score >= 3){
-  img.src = "téléchargement (1).jpg";
-}else{
   img.src = "téléchargement (2).jpg";
+}else{
+  img.src = "téléchargement (1).jpg";
 }
 
 overlay.appendChild(img);
