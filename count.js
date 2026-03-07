@@ -2,7 +2,6 @@ function MaFonction() {
 
   let score = 0;
 
-  // QUESTION 1 : année Minecraft
   let annee = document.getElementsByName("annee");
 
   for (let i = 0; i < annee.length; i++) {
@@ -21,7 +20,6 @@ function MaFonction() {
   }
 
 
-  // QUESTION 2 : ventes Minecraft
   let ventes = document.getElementById("choix");
 
   if (ventes.value == "1") {
@@ -32,7 +30,6 @@ function MaFonction() {
   }
 
 
-  // QUESTION 3 : yeux Herobrine
   let yeux = document.getElementById("Id_Reponse");
 
   if (yeux.value.toLowerCase() == "blanc" || yeux.value.toLowerCase() == "blancs") {
@@ -43,7 +40,6 @@ function MaFonction() {
   }
 
 
-  // QUESTION 4 : créateur Deltarune
   let createur = document.getElementsByName("Ian");
 
   for (let i = 0; i < createur.length; i++) {
@@ -62,7 +58,6 @@ function MaFonction() {
   }
 
 
-  // QUESTION 5 : sortie Deltarune
   let date = document.getElementById("choix2");
 
   if (date.value == "I2") {
@@ -73,7 +68,6 @@ function MaFonction() {
   }
 
 
-  // QUESTION 6 : personnage principal
   let perso = document.getElementById("Id_Reponse2");
 
   if (perso.value.toLowerCase() == "kris") {
@@ -82,7 +76,27 @@ function MaFonction() {
   } else {
     perso.style.backgroundColor = "red";
   }
+// CREATE OVERLAY
+let overlay = document.createElement("div");
+overlay.id = "overlay";
 
+let img = document.createElement("img");
+
+// choose image depending on score
+if(score >= 5){
+  img.src = "tenna-deltarune.gif";
+}else if(score >= 3){
+  img.src = "téléchargement (1).jpg";
+}else{
+  img.src = "téléchargement (2).jpg";
+}
+
+overlay.appendChild(img);
+document.body.appendChild(overlay);
+
+overlay.onclick = function(){
+  overlay.remove();
+};
   alert("Votre score est : " + score + " / 6");
 
 }
