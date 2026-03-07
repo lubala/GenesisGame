@@ -13,3 +13,6 @@
 
   z-index: 999999;
 }
+#overlay img{
+  width: 800px;
+}
