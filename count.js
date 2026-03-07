@@ -82,18 +82,6 @@ function MaFonction() {
   } else {
     perso.style.backgroundColor = "red";
   }
-const overlay = document.createElement("div");
-  overlay.id = "overlay";
-  const img = document.createElement("img");
-  if score>=4{
-  img.src = "téléchargement (1).jpg";}
-  else{
-    img.src="téléchargement (2).jpg";
-
-  overlay.appendChild(img);
-
-  document.body.appendChild(overlay);
-
 
   alert("Votre score est : " + score + " / 6");
 
