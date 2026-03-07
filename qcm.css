@@ -16,3 +16,13 @@
 #overlay img{
   width: 800px;
 }
+.textbox {
+  display: inline-block; 
+  background-image: url("abstract-background-design-hd-light-turkish-red-color_851755-114457.avif
+.png");
+  background-size: cover;       
+  background-position: center;   
+  outline: thick double #FF0000;
+  padding: 10px;
+  box-sizing: border-box;
+}
