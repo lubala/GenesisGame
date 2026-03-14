@@ -82,7 +82,6 @@ overlay.id = "overlay";
 
 let img = document.createElement("img");
 
-// choose image depending on score
 if(score >= 5){
   img.src = "tenna-deltarune.gif";
 }else if(score >= 3){
