@@ -76,7 +76,7 @@ function MaFonction() {
   } else {
     perso.style.backgroundColor = "red";
   }
-// CREATE OVERLAY
+
 let overlay = document.createElement("div");
 overlay.id = "overlay";
 
