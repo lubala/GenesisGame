@@ -39,7 +39,9 @@ div.overhead {position: relative;
 	
 	<br/><br/><br/>
 	
-En quelle année est sortie Minecraft ? <br/><br/><br/>
+En quelle année est sortie Minecraft ? 
+	  <span id="ans1"></span>
+	  <br/><br/><br/>
 	  
 <label>
  <input type="radio" name="annee"  value="0"   checked />
@@ -64,6 +66,7 @@ En quelle année est sortie Minecraft ? <br/><br/><br/>
 <br/><br/><br/><br/>
 
 Quelles ont été le nombre de ventes (mobile) de Minecraft en 2017 ? 
+	  <span id="ans2"></span>
 <br/><br/><br/>
 	
 	<select id="choix" name="lang" onchange="selection()">
@@ -77,7 +80,7 @@ Quelles ont été le nombre de ventes (mobile) de Minecraft en 2017 ?
 <br/><br/><br/><br/>
 		
 De quelle couleur sont les yeux d'Hérobrïne ? 
-		
+		<span id="ans3"></span>
 	<br/><br/><br/>
 
 		<input type="text" name="Valeur" id="Id_Reponse" value="mettre en minuscule" onchange=""/> 
@@ -88,7 +91,9 @@ De quelle couleur sont les yeux d'Hérobrïne ?
 <h3> Thème : Deltarune </h3>
 
 		<br/><br/><br/>
-Qui a créé Deltarune? <br/><br/><br/>
+Qui a créé Deltarune? 
+	  <span id="ans4"></span>
+	  <br/><br/><br/>
 <label>
  <input type="radio" name="Ian"  value="John Deltarune"  checked />
 John Deltarune</label>
@@ -115,6 +120,7 @@ Bill Gates  </label>
 <br/><br/><br/><br/>
 
 Quand est sorti Deltarune?
+	  <span id="ans5"></span>
 	<br/><br/><br/>
 	
 	<select id="choix2" name="lang" onchange="selection()">
@@ -128,12 +134,13 @@ Quand est sorti Deltarune?
 <br/><br/><br/><br/>
 		
 Qui est le personnage principal de Deltarune?		
+	  <span id="ans6"></span>
 	<br/><br/><br/>
 
 		<input type="text" name="Valeur_Reponse2" id="Id_Reponse2" value="ecrire en miniscule" /> 
 		
 <br/><br/><br/><br/>
- <input type="button" value="Valider" onclick="MaFonction()" />
+ <input type="button" value="Valider" onclick="MaFonction()"/>
 
 	  <button onclick="location.reload()" class="reset">
 Reset
@@ -149,6 +156,16 @@ Reset
 </body>
 	<script type="text/javascript" src="count.js">
 	</script>
+<script>function answers(){
+document.getElementById("ans1").innerHTML = "2009";
+document.getElementById("ans2").innerHTML = "63 000 000";
+document.getElementById("ans3").innerHTML = "blanc(s)!";
+document.getElementById("ans4").innerHTML = "Toby Fox";
+document.getElementById("ans5").innerHTML = "2018";
+document.getElementById("ans6").innerHTML = "kris";
+
+}
+</script>
 </html>
 
 
