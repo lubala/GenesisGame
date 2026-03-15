@@ -40,7 +40,6 @@ div.overhead {position: relative;
 	<br/><br/><br/>
 	
 En quelle année est sortie Minecraft ? 
-	  <span id="ans1"></span>
 	  <br/><br/><br/>
 	  
 <label>
@@ -52,7 +51,7 @@ En quelle année est sortie Minecraft ?
   2008  </label>
 	
 <label>
- <input type="radio" name="annee"  value="1" />
+ <input type="radio" name="annee"  value="1" id="ans1" />
  2009  </label>
 	
 <label>
@@ -66,7 +65,6 @@ En quelle année est sortie Minecraft ?
 <br/><br/><br/><br/>
 
 Quelles ont été le nombre de ventes (mobile) de Minecraft en 2017 ? 
-	  <span id="ans2"></span>
 <br/><br/><br/>
 	
 	<select id="choix" name="lang" onchange="selection()">
@@ -76,15 +74,14 @@ Quelles ont été le nombre de ventes (mobile) de Minecraft en 2017 ?
         <option value="0"> 133 000 000</option>
 		<option value="0"> 14 000 000</option>
 		</select> 
-	
+	<span id="ans2"></span>
 <br/><br/><br/><br/>
 		
 De quelle couleur sont les yeux d'Hérobrïne ? 
-		<span id="ans3"></span>
 	<br/><br/><br/>
 
 		<input type="text" name="Valeur" id="Id_Reponse" value="mettre en minuscule" onchange=""/> 
-		
+
 <br/><br/><br/><br/>
 		
   
@@ -92,7 +89,6 @@ De quelle couleur sont les yeux d'Hérobrïne ?
 
 		<br/><br/><br/>
 Qui a créé Deltarune? 
-	  <span id="ans4"></span>
 	  <br/><br/><br/>
 <label>
  <input type="radio" name="Ian"  value="John Deltarune"  checked />
@@ -103,7 +99,7 @@ John Deltarune</label>
  Bob Fox  </label>
 	
 <label>
- <input type="radio" name="Ian"  value="Toby Fox" />
+ <input type="radio" name="Ian"  value="Toby Fox" id="ans4"/>
 Toby Fox  </label>
 	
 <label>
@@ -120,7 +116,6 @@ Bill Gates  </label>
 <br/><br/><br/><br/>
 
 Quand est sorti Deltarune?
-	  <span id="ans5"></span>
 	<br/><br/><br/>
 	
 	<select id="choix2" name="lang" onchange="selection()">
@@ -130,11 +125,10 @@ Quand est sorti Deltarune?
         <option value="I3"> 2021</option>
 		<option value="I4"> 2011</option>
 		</select> 
-	
+<span id="ans5"></span>
 <br/><br/><br/><br/>
 		
 Qui est le personnage principal de Deltarune?		
-	  <span id="ans6"></span>
 	<br/><br/><br/>
 
 		<input type="text" name="Valeur_Reponse2" id="Id_Reponse2" value="ecrire en miniscule" /> 
@@ -143,7 +137,7 @@ Qui est le personnage principal de Deltarune?
  <input type="button" value="Valider" onclick="MaFonction()"/>
 
 	  <button onclick="location.reload()" class="reset">
-Reset
+Reinitialiser
 </button>
 	 <button onclick="answers" >
 		 Reponses
@@ -157,13 +151,18 @@ Reset
 	<script type="text/javascript" src="count.js">
 	</script>
 <script>function answers(){
-document.getElementById("ans1").innerHTML = "2009";
-document.getElementById("ans2").innerHTML = "63 000 000";
-document.getElementById("ans3").innerHTML = "blanc(s)!";
-document.getElementById("ans4").innerHTML = "Toby Fox";
-document.getElementById("ans5").innerHTML = "2018";
-document.getElementById("ans6").innerHTML = "kris";
-
+let ans1=document.getElementById("ans1");
+	ans1.style.color="green";
+let ans2=document.getElementById("ans2").innerHTML = "63 000 000";
+		ans2.style.color="green"
+let ans3=document.getElementById("Id_Reponse").innerHTML = "blanc(s)!";
+	ans3.style.color="green"
+let ans4=document.getElementById("ans4");
+	ans4.style.color="green"
+let ans5=document.getElementById("ans5").innerHTML = "2018";
+		ans5.style.color="green"
+let ans6=document.getElementById("Id_Reponse2").innerHTML = "kris";
+	ans6.style.color="green"
 }
 </script>
 </html>
